@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8677CF271548F65A00357BA9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8677CF261548F65A00357BA9 /* Cocoa.framework */; };
+		8677CF311548F65A00357BA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8677CF2F1548F65A00357BA9 /* InfoPlist.strings */; };
+		8677CF331548F65A00357BA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8677CF321548F65A00357BA9 /* main.m */; };
+		8677CF371548F65A00357BA9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8677CF351548F65A00357BA9 /* Credits.rtf */; };
+		8677CF3A1548F65A00357BA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8677CF391548F65A00357BA9 /* AppDelegate.m */; };
+		8677CF3D1548F65B00357BA9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8677CF3B1548F65B00357BA9 /* MainMenu.xib */; };
+		8677CF441548F67800357BA9 /* beer.png in Resources */ = {isa = PBXBuildFile; fileRef = 8677CF431548F67800357BA9 /* beer.png */; };
+		8698287A1549EA2C00EB8E32 /* BarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 869828791549EA2C00EB8E32 /* BarView.m */; };
+		869FA38A1549AA6900DCA177 /* GoggleWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 869FA3891549AA6900DCA177 /* GoggleWindow.m */; };
+		86A50C9F154CA7E700A0DC56 /* GoggleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A50C9D154CA7E700A0DC56 /* GoggleViewController.m */; };
+		86A50CA0154CA7E700A0DC56 /* GoggleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86A50C9E154CA7E700A0DC56 /* GoggleViewController.xib */; };
+		86DB2DA4154F0D6700625EED /* BarLegendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DB2DA3154F0D6700625EED /* BarLegendView.m */; };
+		86DD5865154A024F009C1FEA /* Matatino.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DD5864154A024F009C1FEA /* Matatino.framework */; };
+		86DD5867154A041A009C1FEA /* Matatino.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86DD5864154A024F009C1FEA /* Matatino.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		86DD5866154A0416009C1FEA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				86DD5867154A041A009C1FEA /* Matatino.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8677CF221548F65A00357BA9 /* MacGoggles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacGoggles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8677CF261548F65A00357BA9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8677CF291548F65A00357BA9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8677CF2A1548F65A00357BA9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8677CF2B1548F65A00357BA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8677CF2E1548F65A00357BA9 /* MacGoggles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacGoggles-Info.plist"; sourceTree = "<group>"; };
+		8677CF301548F65A00357BA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8677CF321548F65A00357BA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8677CF341548F65A00357BA9 /* MacGoggles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacGoggles-Prefix.pch"; sourceTree = "<group>"; };
+		8677CF361548F65A00357BA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8677CF381548F65A00357BA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8677CF391548F65A00357BA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8677CF3C1548F65B00357BA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8677CF431548F67800357BA9 /* beer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beer.png; sourceTree = "<group>"; };
+		869828781549EA2C00EB8E32 /* BarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarView.h; sourceTree = "<group>"; };
+		869828791549EA2C00EB8E32 /* BarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarView.m; sourceTree = "<group>"; };
+		869FA3881549AA6900DCA177 /* GoggleWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoggleWindow.h; sourceTree = "<group>"; };
+		869FA3891549AA6900DCA177 /* GoggleWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoggleWindow.m; sourceTree = "<group>"; };
+		86A50C9C154CA7E700A0DC56 /* GoggleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoggleViewController.h; sourceTree = "<group>"; };
+		86A50C9D154CA7E700A0DC56 /* GoggleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoggleViewController.m; sourceTree = "<group>"; };
+		86A50C9E154CA7E700A0DC56 /* GoggleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoggleViewController.xib; sourceTree = "<group>"; };
+		86DB2DA2154F0D6700625EED /* BarLegendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarLegendView.h; sourceTree = "<group>"; };
+		86DB2DA3154F0D6700625EED /* BarLegendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarLegendView.m; sourceTree = "<group>"; };
+		86DD5864154A024F009C1FEA /* Matatino.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Matatino.framework; path = ../../../Downloads/Matatino.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8677CF1F1548F65A00357BA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DD5865154A024F009C1FEA /* Matatino.framework in Frameworks */,
+				8677CF271548F65A00357BA9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8677CF171548F65A00357BA9 = {
+			isa = PBXGroup;
+			children = (
+				86DD5864154A024F009C1FEA /* Matatino.framework */,
+				8677CF2C1548F65A00357BA9 /* MacGoggles */,
+				8677CF251548F65A00357BA9 /* Frameworks */,
+				8677CF231548F65A00357BA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8677CF231548F65A00357BA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8677CF221548F65A00357BA9 /* MacGoggles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8677CF251548F65A00357BA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8677CF261548F65A00357BA9 /* Cocoa.framework */,
+				8677CF281548F65A00357BA9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8677CF281548F65A00357BA9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8677CF291548F65A00357BA9 /* AppKit.framework */,
+				8677CF2A1548F65A00357BA9 /* CoreData.framework */,
+				8677CF2B1548F65A00357BA9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8677CF2C1548F65A00357BA9 /* MacGoggles */ = {
+			isa = PBXGroup;
+			children = (
+				8677CF381548F65A00357BA9 /* AppDelegate.h */,
+				8677CF391548F65A00357BA9 /* AppDelegate.m */,
+				869FA3881549AA6900DCA177 /* GoggleWindow.h */,
+				869FA3891549AA6900DCA177 /* GoggleWindow.m */,
+				869828781549EA2C00EB8E32 /* BarView.h */,
+				869828791549EA2C00EB8E32 /* BarView.m */,
+				8677CF431548F67800357BA9 /* beer.png */,
+				8677CF3B1548F65B00357BA9 /* MainMenu.xib */,
+				8677CF2D1548F65A00357BA9 /* Supporting Files */,
+				86A50C9C154CA7E700A0DC56 /* GoggleViewController.h */,
+				86A50C9D154CA7E700A0DC56 /* GoggleViewController.m */,
+				86DB2DA2154F0D6700625EED /* BarLegendView.h */,
+				86DB2DA3154F0D6700625EED /* BarLegendView.m */,
+				86A50C9E154CA7E700A0DC56 /* GoggleViewController.xib */,
+			);
+			path = MacGoggles;
+			sourceTree = "<group>";
+		};
+		8677CF2D1548F65A00357BA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8677CF2E1548F65A00357BA9 /* MacGoggles-Info.plist */,
+				8677CF2F1548F65A00357BA9 /* InfoPlist.strings */,
+				8677CF321548F65A00357BA9 /* main.m */,
+				8677CF341548F65A00357BA9 /* MacGoggles-Prefix.pch */,
+				8677CF351548F65A00357BA9 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8677CF211548F65A00357BA9 /* MacGoggles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8677CF401548F65B00357BA9 /* Build configuration list for PBXNativeTarget "MacGoggles" */;
+			buildPhases = (
+				8677CF1E1548F65A00357BA9 /* Sources */,
+				8677CF1F1548F65A00357BA9 /* Frameworks */,
+				8677CF201548F65A00357BA9 /* Resources */,
+				86DD5866154A0416009C1FEA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacGoggles;
+			productName = MacGoggles;
+			productReference = 8677CF221548F65A00357BA9 /* MacGoggles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8677CF191548F65A00357BA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8677CF1C1548F65A00357BA9 /* Build configuration list for PBXProject "MacGoggles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 8677CF171548F65A00357BA9;
+			productRefGroup = 8677CF231548F65A00357BA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8677CF211548F65A00357BA9 /* MacGoggles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8677CF201548F65A00357BA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8677CF311548F65A00357BA9 /* InfoPlist.strings in Resources */,
+				8677CF371548F65A00357BA9 /* Credits.rtf in Resources */,
+				8677CF3D1548F65B00357BA9 /* MainMenu.xib in Resources */,
+				8677CF441548F67800357BA9 /* beer.png in Resources */,
+				86A50CA0154CA7E700A0DC56 /* GoggleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8677CF1E1548F65A00357BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8677CF331548F65A00357BA9 /* main.m in Sources */,
+				8677CF3A1548F65A00357BA9 /* AppDelegate.m in Sources */,
+				869FA38A1549AA6900DCA177 /* GoggleWindow.m in Sources */,
+				8698287A1549EA2C00EB8E32 /* BarView.m in Sources */,
+				86A50C9F154CA7E700A0DC56 /* GoggleViewController.m in Sources */,
+				86DB2DA4154F0D6700625EED /* BarLegendView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8677CF2F1548F65A00357BA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8677CF301548F65A00357BA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8677CF351548F65A00357BA9 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8677CF361548F65A00357BA9 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8677CF3B1548F65B00357BA9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8677CF3C1548F65B00357BA9 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8677CF3E1548F65B00357BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8677CF3F1548F65B00357BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8677CF411548F65B00357BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacGoggles/MacGoggles-Prefix.pch";
+				INFOPLIST_FILE = "MacGoggles/MacGoggles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8677CF421548F65B00357BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacGoggles/MacGoggles-Prefix.pch";
+				INFOPLIST_FILE = "MacGoggles/MacGoggles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8677CF1C1548F65A00357BA9 /* Build configuration list for PBXProject "MacGoggles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8677CF3E1548F65B00357BA9 /* Debug */,
+				8677CF3F1548F65B00357BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8677CF401548F65B00357BA9 /* Build configuration list for PBXNativeTarget "MacGoggles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8677CF411548F65B00357BA9 /* Debug */,
+				8677CF421548F65B00357BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8677CF191548F65A00357BA9 /* Project object */;
+}
