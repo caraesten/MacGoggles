@@ -17,3 +17,5 @@ You need:
  * Lots of wire
 
 The XCode project also makes use of the Mataduino libary, available here: http://appsforarduino.com/matatino/
+
+The circuit diagram is located at Hardware/MacGoggles.png
